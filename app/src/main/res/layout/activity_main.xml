@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.daehe.enlgishstudy1.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="전체문제"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+        <Button
+            android:id="@+id/button_wrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="틀린문제"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="113dp" />
+
+        <Button
+            android:id="@+id/button_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="맞은문제"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="204dp" />
+
+        <Button
+            android:id="@+id/button_confused"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="애매한문제"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="286dp" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

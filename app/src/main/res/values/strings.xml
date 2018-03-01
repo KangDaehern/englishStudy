@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EnlgishStudy1</string>
+    <string name="title_activity_problem_acitivity">Problem</string>
+    <string name="title_activity_base_problem">BaseProblemActivity</string>
+</resources>
